@@ -21,7 +21,7 @@ Linux, Mac OS X, and Windows all come with terminal applications. The terminals 
 On Mac OS X, we recommend that you install the [iTerm2](https://www.iterm2.com/) terminal as it is a bit more powerful than the terminal that comes natively with OS X. On Linux, there is a [variety of terminals](http://www.slant.co/topics/794/~what-is-the-best-linux-terminal-emulator) from which to choose, but the default terminal works just fine.
 
 <figure>
-  ![The terminal](/images/the-terminal.png)
+  <img src="/images/the-terminal.png" alt="The terminal">
   <figcaption>The terminal (iTerm2 on OS X)</figcaption>
 </figure>
 
@@ -166,35 +166,35 @@ We'll be learning a lot more about Chrome's Developer Tools as we go along.
 <dl>
   <dt>terminal</dt>
   <dd>
-    A computer terminal is an electronic or electromechanical hardware device that is used for entering data into, and displaying data from, a computer or a computing system. [<cite>[Wikipedia](https://en.wikipedia.org/wiki/Computer_terminal)</cite>]
+    A computer terminal is an electronic or electromechanical hardware device that is used for entering data into, and displaying data from, a computer or a computing system. [<cite><a href="https://en.wikipedia.org/wiki/Computer_terminal">Wikipedia</a></cite>]
   </dd>
   <dt>shell or command-line interface</dt>
   <dd>
-    A user interface for access to an operating system's services. In general, operating system shells use either a command-line interface (CLI) or graphical user interface (GUI), depending on a computer's role and particular operation. [<cite>[Wikipedia](https://en.wikipedia.org/wiki/Shell_%28computing%29</cite>]
+    A user interface for access to an operating system's services. In general, operating system shells use either a command-line interface (CLI) or graphical user interface (GUI), depending on a computer's role and particular operation. [<cite><a href="https://en.wikipedia.org/wiki/Shell_(computing)">Wikipedia</a></cite>]
   </dd>
   <dt>bash</dt>
   <dd>
-    Bash is a command processor that typically runs in a text window, where the user types commands that cause actions. Bash can also read commands from a file, called a script. The name itself is an acronym, a pun, and a description. As an acronym, it stands for Bourne-again shell, referring to its objective as a free replacement for the Bourne shell. As a pun, it expressed that objective in a phrase that sounds similar to born again, a term for spiritual rebirth. The name is also descriptive of what it did, bashing together the features of sh, csh, and ksh. [<cite>[Wikipedia](https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29)</cite>]
+    Bash is a command processor that typically runs in a text window, where the user types commands that cause actions. Bash can also read commands from a file, called a script. The name itself is an acronym, a pun, and a description. As an acronym, it stands for Bourne-again shell, referring to its objective as a free replacement for the Bourne shell. As a pun, it expressed that objective in a phrase that sounds similar to born again, a term for spiritual rebirth. The name is also descriptive of what it did, bashing together the features of sh, csh, and ksh. [<cite><a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)">Wikipedia</a></cite>]
   </dd>
   <dt>zsh</dt>
   <dd>
-    An alterntive to bash that some of the instructors and developers at EDA prefer. The Z shell (zsh) is a Unix shell that can be used as an interactive login shell and as a powerful command interpreter for shell scripting. Zsh can be thought of as an extended Bourne shell with a large number of improvements, including some features of bash, ksh, and tcsh. [<cite>[Wikipedia](https://en.wikipedia.org/wiki/Z_shell)</cite>]
+    An alterntive to bash that some of the instructors and developers at EDA prefer. The Z shell (zsh) is a Unix shell that can be used as an interactive login shell and as a powerful command interpreter for shell scripting. Zsh can be thought of as an extended Bourne shell with a large number of improvements, including some features of bash, ksh, and tcsh. [<cite><a href="https://en.wikipedia.org/wiki/Z_shell">Wikipedia</a></cite>]
   </dd>
   <dt>version control (source control, revision control)</dt>
   <dd>
-    A component of software configuration management, revision control, also known as version control or source control, is the management of changes to documents, computer programs, large web sites, and other collections of information. [<cite>[Wikipedia](https://en.wikipedia.org/wiki/Version_control)</cite>]
+    A component of software configuration management, revision control, also known as version control or source control, is the management of changes to documents, computer programs, large web sites, and other collections of information. [<cite><a href="https://en.wikipedia.org/wiki/Version_control">Wikipedia</a></cite>]
   </dd>
   <dt>GitHub</dt>
   <dd>
-    GitHub is a Web-based Git repository hosting service, which offers all of the distributed revision control and source code management (SCM) functionality of Git as well as adding its own features. Unlike Git, which is strictly a command-line tool, GitHub provides a Web-based graphical interface and desktop as well as mobile integration. It also provides access control and several collaboration features such as bug tracking, feature requests, task management, and wikis for every project. [<cite>[Wikipedia](https://en.wikipedia.org/wiki/GitHub)</cite>]
+    GitHub is a Web-based Git repository hosting service, which offers all of the distributed revision control and source code management (SCM) functionality of Git as well as adding its own features. Unlike Git, which is strictly a command-line tool, GitHub provides a Web-based graphical interface and desktop as well as mobile integration. It also provides access control and several collaboration features such as bug tracking, feature requests, task management, and wikis for every project. [<cite><a href="https://en.wikipedia.org/wiki/GitHub">Wikipedia</a></cite>]
   </dd>
   <dt>text editor</dt>
   <dd>
-    A text editor is a type of program used for editing plain text files. Text editors are provided with operating systems and software development packages, and can be used to change configuration files, documentation files and programming language source code [<cite>[Wikipedia](https://en.wikipedia.org/wiki/Text_editor)</cite>] [comparison](https://en.wikipedia.org/wiki/Comparison_of_text_editors)
+    A text editor is a type of program used for editing plain text files. Text editors are provided with operating systems and software development packages, and can be used to change configuration files, documentation files and programming language source code [<cite><a href="https://en.wikipedia.org/wiki/Text_editor">Wikipedia</a></cite>] [comparison](https://en.wikipedia.org/wiki/Comparison_of_text_editors)
   </dd>
   <dt>integrated development environment (IDE)</dt>
   <dd>
-    An integrated development environment (IDE) is a software application that provides comprehensive facilities to computer programmers for software development. An IDE normally consists of a source code editor, build automation tools and a debugger. Most modern IDEs have intelligent code completion. [<cite>[Wikipedia](https://en.wikipedia.org/wiki/Integrated_development_environment)</cite>]
+    An integrated development environment (IDE) is a software application that provides comprehensive facilities to computer programmers for software development. An IDE normally consists of a source code editor, build automation tools and a debugger. Most modern IDEs have intelligent code completion. [<cite><a href="https://en.wikipedia.org/wiki/Integrated_development_environment">Wikipedia</a></cite>]
   </dd>
 </dl>
 
