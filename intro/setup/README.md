@@ -21,8 +21,8 @@ Linux, Mac OS X, and Windows all come with terminal applications. The terminals 
 On Mac OS X, we recommend that you install the [iTerm2](https://www.iterm2.com/) terminal as it is a bit more powerful than the terminal that comes natively with OS X. On Linux, there is a [variety of terminals](http://www.slant.co/topics/794/~what-is-the-best-linux-terminal-emulator) from which to choose, but the default terminal works just fine.
 
 <figure>
-  <img src="/images/the-terminal.png" alt="The terminal">
-  <figcaption>The terminal (iTerm2 on OS X)</figcaption>
+  <img src="/images/the-terminal.png" alt="The terminal"><br>
+  <figcaption><p>The terminal (iTerm2 on OS X)</p></figcaption>
 </figure>
 
 ### Commands
@@ -190,7 +190,7 @@ We'll be learning a lot more about Chrome's Developer Tools as we go along.
   </dd>
   <dt>text editor</dt>
   <dd>
-    A text editor is a type of program used for editing plain text files. Text editors are provided with operating systems and software development packages, and can be used to change configuration files, documentation files and programming language source code [<cite><a href="https://en.wikipedia.org/wiki/Text_editor">Wikipedia</a></cite>] [comparison](https://en.wikipedia.org/wiki/Comparison_of_text_editors)
+    A text editor is a type of program used for editing plain text files. Text editors are provided with operating systems and software development packages, and can be used to change configuration files, documentation files and programming language source code [<cite><a href="https://en.wikipedia.org/wiki/Text_editor">Wikipedia</a></cite>] <a href="https://en.wikipedia.org/wiki/Comparison_of_text_editors">compared</a>
   </dd>
   <dt>integrated development environment (IDE)</dt>
   <dd>
