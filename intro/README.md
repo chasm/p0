@@ -6,7 +6,7 @@ Or you could use this material simply to enrich your life by helping you to unde
 
 ## What is web development?
 
-From <cite>[Wikipedia](https://en.wikipedia.org/wiki/Web_development)</cite>:
+From <cite><a href="https://en.wikipedia.org/wiki/Web_development">Wikipedia</a></cite>:
 
 > Web development is a broad term for the work involved in developing a web site for the Internet (World Wide Web) or an intranet (a private network). Web development can range from developing the simplest static single page of plain text to the most complex web-based internet applications, electronic businesses, and social network services. A more comprehensive list of tasks to which web development commonly refers, may include web design, web content development, client liaison, client-side/server-side scripting, web server and network security configuration, and e-commerce development.
 
@@ -16,7 +16,7 @@ As this is not limited to working on the World Wide Web, it is becoming more com
 
 ### What is a website?
 
-Again, from <cite>[Wikipedia]()</cite>:
+Again, from <cite><a href="https://en.wikipedia.org/wiki/Website">Wikipedia</a></cite>:
 
 > A website, also written as web site, or simply site, is a set of related web pages typically served from a single web domain. A website is hosted on at least one web server, accessible via a network such as the Internet or a private local area network through an Internet address known as a uniform resource locator (URL). All publicly accessible websites collectively constitute the World Wide Web.
 
@@ -29,19 +29,19 @@ That said, enterprise-quality websites involve extensive knowledge of myriad kno
 [Wikipedia](https://en.wikipedia.org/) is a website.
 
 <figure>
-  ![Mozilla Developer Network (MDN)](/images/mdn-web-site.png)
+  <img src="/images/mdn-web-site.png" alt="Mozilla Developer Network (MDN)">
   <figcaption>
-    The [Mozilla Developer Network](https://developer.mozilla.org/) web <strong style="color:red">site</strong>.
+    The <a href="https://developer.mozilla.org/">Mozilla Developer Network</a> web <strong style="color:red">site</strong>.
   </figcaption>
 </figure>
 
 ### What is a web application or app?
 
-<cite>[Wikipedia](https://en.wikipedia.org/wiki/Web_application)</cite> one more time: "In computing, a <strong style="color:red">web application</strong> or **web app** is a client-server software application in which the client (or user interface) runs in a web browser."
+<cite><a href="https://en.wikipedia.org/wiki/Web_application">Wikipedia</a></cite> one more time: &ldquo;In computing, a <strong style="color:red">web application</strong> or **web app** is a client-server software application in which the client (or user interface) runs in a web browser.&rdquo;
 
 Hmm. So it runs in a web broswer. OK, then what is a **software application**?
 
-> Application software (an application) is a set of computer programs designed to permit the user to perform a group of coordinated functions, tasks, or activities. Application software cannot run on itself but is dependent on system software to execute. <cite>[Wikipedia](https://en.wikipedia.org/wiki/Application_software)</cite>
+> Application software (an application) is a set of computer programs designed to permit the user to perform a group of coordinated functions, tasks, or activities. Application software cannot run on itself but is dependent on system software to execute. <cite><a href="https://en.wikipedia.org/wiki/Application_software">Wikipedia</a></cite>
 
 OK, so application software is computer programs that run on other software (called an *operating system*) which runs on hardware (the computer itself).
 
@@ -56,8 +56,8 @@ Online games, spreadsheets, chat rooms, photo processors, music players, video p
 The introductory portion of this course focuses on web *site* development and essential programming skills. The on-site portion of the course focuses on web *application* development.
 
 <figure>
-  ![AirBnB web application](/images/airbnb-web-app.png)
+  <img src=""/images/airbnb-web-app.png" alt="AirBnB web application">
   <figcaption>
-    The [AirBnB](https://www.airbnb.com/) web <strong style="color:red">application</strong>.
+    The <a href="https://www.airbnb.com/">AirBnB</a> web <strong style="color:red">application</strong>.
   </figcaption>
 </figure>

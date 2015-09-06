@@ -13,7 +13,7 @@
 
 HTML is the Hypertext Markup Language. It is what we use to "mark up" text, images, etc. for use on a Web page.
 
-The purpose of HTML is to describe the <strong style="color:red">structure</strong>, <strong style="color:red">function</strong>, or <strong style="color:red">semantics</strong> (meaning) of an element of a Web page.
+The purpose of HTML is to describe the <strong style="color: red">structure</strong>, <strong style="color: red">function</strong>, or <strong style="color: red">semantics</strong> (meaning) of an element of a Web page.
 
 Let's take the name one word at a time, starting with the last word:
 
@@ -25,9 +25,9 @@ And on a basic level, HTML is one of the easiest languages to learn. It also for
 
 ### Markup
 
-HTML is <strong style="color:red">not a programming language</strong>. Programming languages are used to create algorithms, which are logic processes for solving problems. One of the programming languages that we'll be using in this course is **JavaScript**.
+HTML is <strong style="color: red">not a programming language</strong>. Programming languages are used to create algorithms, which are logic processes for solving problems. One of the programming languages that we'll be using in this course is **JavaScript**.
 
-A <strong style="color:red">Markup language</strong>, in contrast, is essentially a system for labeling things on the page. For example, if I want to indicate that a block of text is a paragraph, I could mark it up like this:
+A <strong style="color: red">Markup language</strong>, in contrast, is essentially a system for labeling things on the page. For example, if I want to indicate that a block of text is a paragraph, I could mark it up like this:
 
 ```html
 <p>
@@ -39,9 +39,9 @@ A <strong style="color:red">Markup language</strong>, in contrast, is essentiall
 </p>
 ```
 
-<p style="padding:20px 40px">**Note:** The fake Latin text in this sample paragraph is known as **Lorem ipsum** from the first two words in the classic version of it. It is mangled Latin that has been used for hundred of years to provide meaningless text. We use this text as a placeholder when we want to focus on things *around* the text, rather than on what the text says or means. You will see Lorem ipsum text a lot. There are also many amusing variations on it, such a Pirate text.</p>
+<p style="padding:20px 40px"><strong>Note:</strong> The fake Latin text in this sample paragraph is known as <strong>Lorem ipsum</strong> from the first two words in the classic version of it. It is mangled Latin that has been used for hundred of years to provide meaningless text. We use this text as a placeholder when we want to focus on things <em>around</em> the text, rather than on what the text says or means. You will see Lorem ipsum text a lot. There are also many amusing variations on it, such a Pirate text.</p>
 
-You can think of the `<p>` and `</p>` as defining the sides of a *box*, and the paragraph text as sitting inside that box. The <strong style="color:red">p</strong> is the **label** on the box, indicating that it holds a *paragraph*.
+You can think of the `<p>` and `</p>` as defining the sides of a *box*, and the paragraph text as sitting inside that box. The <strong style="color: red">p</strong> is the **label** on the box, indicating that it holds a *paragraph*.
 
 Similarly, we could mark up an unordered list of items like this:
 
@@ -61,7 +61,7 @@ When we see this on a Web page, the HTML "tags" are invisible, but the browser s
   <li>Sigh... I am the third and final item</li>
 </ul>
 
-Here, the <strong style="color:red">ul</strong> is the label on the outer element, which is the *unordered list* (ul) itself. Then each *list item* (li) in the list is labeled with <strong style="color:red">li</strong>. Put another way, each list item is in a box labeled <strong style="color:red">li</strong>. We indicate this by putting an `<li>` in front of the box contents, and an `</li>` (not the / mark) at the end of the box contents.
+Here, the <strong style="color: red">ul</strong> is the label on the outer element, which is the *unordered list* (ul) itself. Then each *list item* (li) in the list is labeled with <strong style="color: red">li</strong>. Put another way, each list item is in a box labeled <strong style="color: red">li</strong>. We indicate this by putting an `<li>` in front of the box contents, and an `</li>` (not the / mark) at the end of the box contents.
 
 Hence, a **markup** language.
 
@@ -77,15 +77,15 @@ But our Web-enabled devices have become dramatically more varied and complex. I 
 
 That's so old fashioned! More likely, I'm now using a smart phone and I simply tap the screen. Or perhaps I just say the link name out loud and my computer obeys and follows the link. However it is accomplished, I can move through a network of resources&mdash;Web pages, videos, downloadable files, etc.&mdash;with ease.
 
-*That* is <strong style="color:red">hypermedia</strong>, and it has changed the way we interact with the world and with each other in ways we are only beginning to understand. And it all started with HTML.
+*That* is <strong style="color: red">hypermedia</strong>, and it has changed the way we interact with the world and with each other in ways we are only beginning to understand. And it all started with HTML.
 
 Some of the links on the page are hidden and are used by the browser automatically. For example, images are not usually embedded in the page. Instead, the page links to them. The browser automatically follows those links, retrieves the images, and inserts them into the page in place of the HTML `<img>` element.
 
 #### Attributes
 
-We can add more information to our box labels (HTML elements) by adding <strong style="color:red">attributes</strong> to those elements. This is like writing a bit more information on the box.
+We can add more information to our box labels (HTML elements) by adding <strong style="color: red">attributes</strong> to those elements. This is like writing a bit more information on the box.
 
-Attributes each have a <strong style="color:red">name</strong> and, usually, a <strong style="color:red">value</strong>.
+Attributes each have a <strong style="color: red">name</strong> and, usually, a <strong style="color: red">value</strong>.
 
 The pattern for adding an attribute is:
 
@@ -93,17 +93,17 @@ The pattern for adding an attribute is:
 <tag name="value">content</tag>
 ```
 
-Where <strong style="color:red">tag</strong> is the name of the HTML element (e.g., p, ul, li), <strong style="color:red">name</strong> is the name of the attribute, <strong style="color:red">value</strong> is its value, and <strong style="color:red">content</strong> is the content of the HTML element, if any.
+Where <strong style="color: red">tag</strong> is the name of the HTML element (e.g., p, ul, li), <strong style="color: red">name</strong> is the name of the attribute, <strong style="color: red">value</strong> is its value, and <strong style="color: red">content</strong> is the content of the HTML element, if any.
 
-So, how would we add an image to a Web page? Well, we'll link to it. So we need to have a URL for our image. The URL, or <strong style="color:red">Uniform Resource Locator</strong>, is a string of characters that we use as an *address* to tell our browser where on the Web to find that resource. Let's look at one:
+So, how would we add an image to a Web page? Well, we'll link to it. So we need to have a URL for our image. The URL, or <strong style="color: red">Uniform Resource Locator</strong>, is a string of characters that we use as an *address* to tell our browser where on the Web to find that resource. Let's look at one:
 
 #### Uniform Resource Locators (URLs)
 
-The URL is made up of several parts, each of which tells the computer something about the resource. <strong style="color:red">We need URLs because they tell us where to find resources on the network.</strong>
+The URL is made up of several parts, each of which tells the computer something about the resource. <strong style="color: red">We need URLs because they tell us where to find resources on the network.</strong>
 
 **Protocol**
 
-The first part of our URL is the <strong style="color:red">protocol</strong>. A protocol is a set of rules for how something is handled. For example, diplomats use protocols all the time for formalizing ways to negotiate with other diplomats. It can be as simple as a seating chart for an important dinner, or very complex.
+The first part of our URL is the <strong style="color: red">protocol</strong>. A protocol is a set of rules for how something is handled. For example, diplomats use protocols all the time for formalizing ways to negotiate with other diplomats. It can be as simple as a seating chart for an important dinner, or very complex.
 
 In programming, protocols are used in a similar manner: they dictate *how things get done*. The protocal for the World Wide Web is the HyperText Transfer Protocol (HTTP), which, unsurprisingly, is a *protocol* to determine how to *transfer* *hypertext* resources. Funny how names often tell you something about the things they name.
 
@@ -121,7 +121,7 @@ After the protocol, we need to tell the computer what "domain" to contact. The d
 
 Domains are "virtual", which means that they *may* correspond to a particular machine, or they may not. It doesn't really matter. All that counts is that the owner of a domain controls everything that happens in that domain.
 
-So, for example, the folks at Google own the "google" domain. So everything that happens in the <strong style="color:red">google</strong> domain happens behind
+So, for example, the folks at Google own the "google" domain. So everything that happens in the <strong style="color: red">google</strong> domain happens behind
 
 ```
 http://google
@@ -154,11 +154,11 @@ Every Web site has a "root" folder: this is the folder in which the rest of the 
 
 These days, we most likely are using a "virtual" URL, which means that the **server** (the program that holds and serves the Web site to your browser) takes this virtual URL apart and then responds based on instructions we gave it. The actual folders and file might not even exist&mdash;perhaps they are created on the fly.
 
-But for our purposes, we'll assume for the moment that the rest of the URL represents a set of folders and files such that `/` is the root folder which serves the <strong style="color:red">home page</strong>, and that other pages are served from folders beneath that one.
+But for our purposes, we'll assume for the moment that the rest of the URL represents a set of folders and files such that `/` is the root folder which serves the <strong style="color: red">home page</strong>, and that other pages are served from folders beneath that one.
 
 #### Putting  it all together to add an image to the page
 
-Remember <strong style="color:red">attributes</strong>? Yeah, way back up there we were talking about how we can add attributes to our HTML elements to help our browser to display exactly what we want it to.
+Remember <strong style="color: red">attributes</strong>? Yeah, way back up there we were talking about how we can add attributes to our HTML elements to help our browser to display exactly what we want it to.
 
 Well, to add an image to a page, we use an interactive HTML element called `<img>`. And we tell the browser where to find that image by adding the `src` attribute, which is short for "source URL". For example, if we wanted to insert [this image](http://static.pratique.fr/images/unsized/gr/grumpy-cat.jpg) into our Web page, we'd add this HTML element at the point in the page that we wanted the image to appear:
 
@@ -176,13 +176,13 @@ Perhaps because HTML is easy to grasp and easy to use (though trickier to use pr
 
 What a shame. HTML is actually a far more complex and powerful language, in some ways, than any programming language. In fact, HTML and it's big brother XML can be used to create complex "ontologies" (systems of knowledge) that can be used by "inference engines" to help computers to better understand the world and the things in it.
 
-In other words, HTML is at the root of a system&mdash;sometimes called the <strong style="color:red">Semantic Web</strong>&mdash;that allows computers to reason about the world. Another name for this is <strong style="color:red">artificial intelligence</strong> or <strong style="color:red">AI</strong>. Take that, JavaScript!
+In other words, HTML is at the root of a system&mdash;sometimes called the <strong style="color: red">Semantic Web</strong>&mdash;that allows computers to reason about the world. Another name for this is <strong style="color: red">artificial intelligence</strong> or <strong style="color: red">AI</strong>. Take that, JavaScript!
 
 HTML is also very important for making resources available to people with widely different abilities, whatever those abilities might be, and regardless of whether they are permanent or temporary. For example, properly used, HTML can make Web pages easily accessible by screen reader applications, often used by those who can't see the page.
 
-Both <strong style="color:red">accessibility to persons with disabilities</strong> and <strong style="color:red">usability</strong>&mdash;two related but different concepts&mdash;are heavily dependent upon proper, standards-compliant use of HTML. For this reason (and others), we will be focusing strongly on standards-compliant HTML throughout this course.
+Both <strong style="color: red">accessibility to persons with disabilities</strong> and <strong style="color: red">usability</strong>&mdash;two related but different concepts&mdash;are heavily dependent upon proper, standards-compliant use of HTML. For this reason (and others), we will be focusing strongly on standards-compliant HTML throughout this course.
 
-It's not just a matter of standards, however. <strong style="color:red">It's a matter of justice.</strong> And it makes the World Wide Web that much more usable and user-friendly for everyone.
+It's not just a matter of standards, however. <strong style="color: red">It's a matter of justice.</strong> And it makes the World Wide Web that much more usable and user-friendly for everyone.
 
 ## Check yourself
 
@@ -205,47 +205,47 @@ Make sure that you can answer the following questions.
 <dl>
   <dt>markup language</dt>
   <dd>
-    A markup language is a set of tags and/or a set of rules for creating tags that can be embedded in digital text to provide additional information about the text in order to facilitate automated processing of it, including editing and formatting for display or printing. [<cite>[LINFO](http://www.linfo.org/markup_language.html)</cite>]
+    A markup language is a set of tags and/or a set of rules for creating tags that can be embedded in digital text to provide additional information about the text in order to facilitate automated processing of it, including editing and formatting for display or printing. [<cite><a href="http://www.linfo.org/markup_language.html">LINFO</a></cite>]
   </dd>
   <dt>hypertext and hypermedia</dt>
   <dd>
-    <strong style="color:red">Hypertext</strong> is text which contains links to other texts. The term was coined by Ted Nelson around 1965. <strong style="color:red">HyperMedia</strong> is a term used for hypertext which is not constrained to be text: it can include graphics, video, and sound, for example. [<cite>[WhatIs](http://www.w3.org/WhatIs.html)</cite>]
+    <strong style="color: red">Hypertext</strong> is text which contains links to other texts. The term was coined by Ted Nelson around 1965. <strong style="color: red">HyperMedia</strong> is a term used for hypertext which is not constrained to be text: it can include graphics, video, and sound, for example. [<cite><a href="http://www.w3.org/WhatIs.html">WhatIs</a></cite>]
   </dd>
   <dt>HTML</dt>
   <dd>
-    <strong style="color:red">HyperText Markup Language</strong>, commonly referred to as HTML, is the standard markup language used to create web pages. Web browsers can read HTML files and render them into visible or audible web pages. [<cite>[Wikipedia](https://en.wikipedia.org/wiki/HTML)</cite>]
+    <strong style="color: red">HyperText Markup Language</strong>, commonly referred to as HTML, is the standard markup language used to create web pages. Web browsers can read HTML files and render them into visible or audible web pages. [<cite><a href="https://en.wikipedia.org/wiki/HTML">Wikipedia</a></cite>]
   </dd>
   <dt>HTML element</dt>
   <dd>
-    An HTML <strong style="color:red">element</strong> is an individual component of an HTML document or web page, once this has been parsed into the Document Object Model. HTML is composed of a tree of HTML elements and other nodes, such as text nodes. Each element can have HTML attributes specified. [<cite>[Wikipedia](https://en.wikipedia.org/wiki/HTML_element)</cite>]
+    An HTML <strong style="color: red">element</strong> is an individual component of an HTML document or web page, once this has been parsed into the Document Object Model. HTML is composed of a tree of HTML elements and other nodes, such as text nodes. Each element can have HTML attributes specified. [<cite><a href="https://en.wikipedia.org/wiki/HTML_element">Wikipedia</a></cite>]
   </dd>
   <dt>HTML attribute</dt>
   <dd>
-    An HTML <strong style="color:red">attribute</strong> is a modifier of an HTML element type. An attribute either modifies the default functionality of an element type or provides functionality to certain element types unable to function correctly without them. In HTML syntax, an attribute is added to an HTML start tag. [<cite>[Wikipedia](https://en.wikipedia.org/wiki/HTML_attribute)</cite>]
+    An HTML <strong style="color: red">attribute</strong> is a modifier of an HTML element type. An attribute either modifies the default functionality of an element type or provides functionality to certain element types unable to function correctly without them. In HTML syntax, an attribute is added to an HTML start tag. [<cite><a href="https://en.wikipedia.org/wiki/HTML_attribute">Wikipedia</a></cite>]
   </dd>
   <dt>HTML5</dt>
   <dd>
-    HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It was finalized, and published, on 28 October 2014 by the World Wide Web Consortium (W3C). This is the fifth revision of the HTML standard since the inception of the World Wide Web. [<cite>[Wikipedia](https://en.wikipedia.org/wiki/HTML5)</cite>]
+    HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It was finalized, and published, on 28 October 2014 by the World Wide Web Consortium (W3C). This is the fifth revision of the HTML standard since the inception of the World Wide Web. [<cite><a href="https://en.wikipedia.org/wiki/HTML5">Wikipedia</a></cite>]
   </dd>
   <dt>lorem ipsum</dt>
   <dd>
-    In publishing and graphic design, lorem ipsum (derived from Latin dolorem ipsum, translated as "pain itself") is a filler text commonly used to demonstrate the graphic elements of a document or visual presentation. Replacing meaningful content with placeholder text allows viewers to focus on graphic aspects such as font, typography, and page layout without being distracted by the content. It also reduces the need for the designer to come up with meaningful text, as they can instead use quickly-generated lorem ipsum. [<cite>[Wikipedia](https://en.wikipedia.org/wiki/Lorem_ipsum)</cite>]
+    In publishing and graphic design, lorem ipsum (derived from Latin dolorem ipsum, translated as "pain itself") is a filler text commonly used to demonstrate the graphic elements of a document or visual presentation. Replacing meaningful content with placeholder text allows viewers to focus on graphic aspects such as font, typography, and page layout without being distracted by the content. It also reduces the need for the designer to come up with meaningful text, as they can instead use quickly-generated lorem ipsum. [<cite><a href="https://en.wikipedia.org/wiki/Lorem_ipsum">Wikipedia</a></cite>]
   </dd>
   <dt>protocol</dt>
   <dd>
-    An agreed-upon format for transmitting data between two devices. [<cite>[webopedia](http://www.webopedia.com/TERM/P/protocol.html)</cite>]
+    An agreed-upon format for transmitting data between two devices. [<cite><a href="http://www.webopedia.com/TERM/P/protocol.html">webopedia</a></cite>]
   </dd>
   <dt>HTTP</dt>
   <dd>
-    Short for <strong style="color:red">HyperText Transfer Protocol</strong>, HTTP is the underlying protocol used by the World Wide Web. HTTP defines how messages are formatted and transmitted, and what actions Web servers and browsers should take in response to various commands. For example, when you enter a URL in your browser, this actually sends an HTTP command to the Web server directing it to fetch and transmit the requested Web page. [<cite>[webopedia](http://www.webopedia.com/TERM/H/HTTP.html)</cite>]
+    Short for <strong style="color: red">HyperText Transfer Protocol</strong>, HTTP is the underlying protocol used by the World Wide Web. HTTP defines how messages are formatted and transmitted, and what actions Web servers and browsers should take in response to various commands. For example, when you enter a URL in your browser, this actually sends an HTTP command to the Web server directing it to fetch and transmit the requested Web page. [<cite><a href="http://www.webopedia.com/TERM/H/HTTP.html">webopedia</a></cite>]
   </dd>
   <dt>URL</dt>
   <dd>
-    A <strong style="color:red">Uniform Resource Locator</strong>&mdash;commonly informally referred to as a web address&mdash;is a reference to a web resource that specifies its location on a computer network and a mechanism for retrieving it. A URL is a specific type of Uniform Resource Identifier (URI), although many people use the two terms interchangeably. [<cite>[Wikipedia](https://en.wikipedia.org/wiki/Uniform_resource_locator)</cite>]
+    A <strong style="color: red">Uniform Resource Locator</strong>&mdash;commonly informally referred to as a web address&mdash;is a reference to a web resource that specifies its location on a computer network and a mechanism for retrieving it. A URL is a specific type of Uniform Resource Identifier (URI), although many people use the two terms interchangeably. [<cite><a href="https://en.wikipedia.org/wiki/Uniform_resource_locator">Wikipedia</a></cite>]
   </dd>
   <dt>software standard</dt>
   <dd>
-    A software standard is a standard, protocol, or other common format of a document, file, or data transfer accepted and used by one or more software developers while working on one or more than one computer programs. <strong style="color:red">Software standards enable interoperability between different programs created by different developers.</strong> [<cite>[Wikipedia](https://en.wikipedia.org/wiki/Software_standard)</cite>]
+    A software standard is a standard, protocol, or other common format of a document, file, or data transfer accepted and used by one or more software developers while working on one or more than one computer programs. <strong style="color: red">Software standards enable interoperability between different programs created by different developers.</strong> [<cite><a href="https://en.wikipedia.org/wiki/Software_standard">Wikipedia</a></cite>]
   </dd>
 </dl>
 
