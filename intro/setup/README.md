@@ -190,7 +190,7 @@ We'll be learning a lot more about Chrome's Developer Tools as we go along.
   </dd>
   <dt>text editor</dt>
   <dd>
-    A text editor is a type of program used for editing plain text files. Text editors are provided with operating systems and software development packages, and can be used to change configuration files, documentation files and programming language source code [<cite><a href="https://en.wikipedia.org/wiki/Text_editor">Wikipedia</a></cite>] <a href="https://en.wikipedia.org/wiki/Comparison_of_text_editors">compared</a>
+    A text editor is a type of program used for editing plain text files. Text editors are provided with operating systems and software development packages, and can be used to change configuration files, documentation files and programming language source code. <a href="https://en.wikipedia.org/wiki/Comparison_of_text_editors">Editors compared</a>. [<cite><a href="https://en.wikipedia.org/wiki/Text_editor">Wikipedia</a></cite>]
   </dd>
   <dt>integrated development environment (IDE)</dt>
   <dd>
