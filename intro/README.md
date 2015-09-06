@@ -56,7 +56,7 @@ Online games, spreadsheets, chat rooms, photo processors, music players, video p
 The introductory portion of this course focuses on web *site* development and essential programming skills. The on-site portion of the course focuses on web *application* development.
 
 <figure>
-  <img src=""/images/airbnb-web-app.png" alt="AirBnB web application">
+  <img src="/images/airbnb-web-app.png" alt="AirBnB web application">
   <figcaption>
     The <a href="https://www.airbnb.com/">AirBnB</a> web <strong style="color:red">application</strong>.
   </figcaption>
